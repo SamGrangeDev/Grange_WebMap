@@ -12,7 +12,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([152.838578, -27.125210, 152.935409, -27.052437], map.getSize());
+map.getView().fit([152.828769, -27.125690, 152.960688, -27.056100], map.getSize());
 
 ////controls container
 
@@ -451,17 +451,6 @@ map.addControl(Title)
 
 //layer search
 
-var searchLayer = new SearchLayer({
-    layer: lyr_UrbanLiving8Ha_4,
-    colName: 'address',
-    zoom: 10,
-    collapsed: true,
-    map: map
-});
-map.addControl(searchLayer);
-document.getElementsByClassName('search-layer')[0].getElementsByTagName('button')[0].className += ' fa fa-binoculars';
-document.getElementsByClassName('search-layer-input-search')[0].placeholder = 'Search feature ...';
-    
 
 //scalebar
 
