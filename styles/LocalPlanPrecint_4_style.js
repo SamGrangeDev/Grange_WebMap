@@ -42,14 +42,6 @@ case 'Urban living':
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
-                    break;
-default:
-                    return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.65)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(211,220,109,0.65)'}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth)
-    })];
                     break;}};
 
 var style_LocalPlanPrecint_4 = function(feature, resolution){

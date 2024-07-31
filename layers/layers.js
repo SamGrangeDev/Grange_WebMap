@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:7844").setExtent([152.828769, -27.125690, 152.960688, -27.056100]);
+//ol.proj.get("EPSG:7844").setExtent([152.793077, -27.137099, 153.000633, -27.027241]);
 var wms_layers = [];
 
 
@@ -77,8 +77,7 @@ var lyr_LocalPlanPrecint_4 = new ol.layer.Vector({
     <img src="styles/legend/LocalPlanPrecint_4_1.png" /> Green network<br />\
     <img src="styles/legend/LocalPlanPrecint_4_2.png" /> Rural living<br />\
     <img src="styles/legend/LocalPlanPrecint_4_3.png" /> Town centre<br />\
-    <img src="styles/legend/LocalPlanPrecint_4_4.png" /> Urban living<br />\
-    <img src="styles/legend/LocalPlanPrecint_4_5.png" /> <br />'
+    <img src="styles/legend/LocalPlanPrecint_4_4.png" /> Urban living<br />'
         });
 var format_Schools_5 = new ol.format.GeoJSON();
 var features_Schools_5 = format_Schools_5.readFeatures(json_Schools_5, 
@@ -150,7 +149,7 @@ lyr_LocalPlanPrecint_4.set('fieldImages', {'OBJECTID': 'TextEdit', 'GAZ_DATE': '
 lyr_Schools_5.set('fieldImages', {'id': 'TextEdit', });
 lyr_Grange_Parameters_Overlay_6.set('fieldImages', {'OBJECTID': 'TextEdit', 'LGA_CODE': 'TextEdit', 'CAT_DESC': 'TextEdit', 'OVL_CAT': 'TextEdit', 'OVL2_DESC': 'TextEdit', 'OVL2_CAT': 'TextEdit', 'Shape__Are': 'TextEdit', 'Shape__Len': 'TextEdit', 'hsm_core': 'TextEdit', 'Descriptio': 'TextEdit', 'Source': 'TextEdit', 'gridcode': 'TextEdit', 'Mask': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', 'LayerName': 'TextEdit', });
 lyr_30mBufferWaterways_7.set('fieldImages', {'id': 'TextEdit', });
-lyr_CabooltureWestParcels_1.set('fieldLabels', {'LOT': 'hidden field', 'PLAN': 'hidden field', 'ACC_CODE': 'hidden field', 'O_SHAPE_Le': 'hidden field', 'O_SHAPE_Ar': 'hidden field', 'LOTPLAN': 'hidden field', 'area_ha': 'hidden field', 'locality': 'inline label - visible with data', 'local_auth': 'hidden field', 'address': 'inline label - visible with data', 'Remarks': 'no label', 'SP NDH': 'inline label - visible with data', 'Lead Link': 'inline label - visible with data', });
+lyr_CabooltureWestParcels_1.set('fieldLabels', {'LOT': 'hidden field', 'PLAN': 'hidden field', 'ACC_CODE': 'hidden field', 'O_SHAPE_Le': 'hidden field', 'O_SHAPE_Ar': 'hidden field', 'LOTPLAN': 'inline label - visible with data', 'area_ha': 'inline label - visible with data', 'locality': 'inline label - visible with data', 'local_auth': 'hidden field', 'address': 'inline label - visible with data', 'Remarks': 'inline label - visible with data', 'SP NDH': 'inline label - visible with data', 'Lead Link': 'inline label - visible with data', });
 lyr_DeveloperheldParcels_2.set('fieldLabels', {'Developer': 'inline label - visible with data', });
 lyr_KeyOpportunities_3.set('fieldLabels', {'LOT': 'hidden field', 'PLAN': 'hidden field', 'ACC_CODE': 'hidden field', 'O_SHAPE_Le': 'hidden field', 'O_SHAPE_Ar': 'hidden field', 'LOTPLAN': 'hidden field', 'area_ha': 'hidden field', 'locality': 'hidden field', 'local_auth': 'hidden field', 'address': 'inline label - visible with data', 'GrangeNDH': 'inline label - visible with data', 'Lot Plan': 'inline label - visible with data', 'Gross HA': 'inline label - visible with data', 'Suburb': 'inline label - visible with data', 'Remarks': 'inline label - visible with data', 'Urban Liv': 'inline label - visible with data', 'Lead Link': 'inline label - visible with data', });
 lyr_LocalPlanPrecint_4.set('fieldLabels', {'OBJECTID': 'no label', 'GAZ_DATE': 'no label', 'AMD_DATE': 'no label', 'CAD_VER': 'no label', 'LGA_CODE': 'no label', 'LP': 'no label', 'LP_PREC': 'no label', 'Shape__Are': 'no label', 'Shape__Len': 'no label', });
