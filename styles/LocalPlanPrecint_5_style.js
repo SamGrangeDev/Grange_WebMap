@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_LocalPlanPrecint_4(feature, value, size, resolution, labelText,
+function categories_LocalPlanPrecint_5(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 switch(value.toString()) {case 'Enterprise and employment':
@@ -44,7 +44,7 @@ case 'Urban living':
     })];
                     break;}};
 
-var style_LocalPlanPrecint_4 = function(feature, resolution){
+var style_LocalPlanPrecint_5 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -64,7 +64,7 @@ var style_LocalPlanPrecint_4 = function(feature, resolution){
         labelText = String("");
     }
     
-var style = categories_LocalPlanPrecint_4(feature, value, size, resolution, labelText,
+var style = categories_LocalPlanPrecint_5(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement);
 
