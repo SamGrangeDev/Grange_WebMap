@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:7844").setExtent([152.779059, -27.140246, 152.974510, -27.038859]);
+//ol.proj.get("EPSG:7844").setExtent([152.799892, -27.139804, 152.995343, -27.038417]);
 var wms_layers = [];
 
 
@@ -69,7 +69,7 @@ var lyr_30mBufferWaterways_4 = new ol.layer.Vector({
                 source:jsonSource_30mBufferWaterways_4, 
                 style: style_30mBufferWaterways_4,
                 popuplayertitle: "30m Buffer Waterways",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/30mBufferWaterways_4.png" /> 30m Buffer Waterways'
             });
 var group_Overlay = new ol.layer.Group({
@@ -113,7 +113,7 @@ lyr_30mBufferWaterways_4.set('fieldAliases', {'id': 'id', });
 lyr_CabooltureWestParcels_2.set('fieldImages', {'LOT': 'TextEdit', 'PLAN': 'TextEdit', 'ACC_CODE': 'TextEdit', 'O_SHAPE_Le': 'TextEdit', 'O_SHAPE_Ar': 'TextEdit', 'LOTPLAN': 'TextEdit', 'area_ha': 'TextEdit', 'locality': 'TextEdit', 'local_auth': 'TextEdit', 'address': 'TextEdit', 'Remarks': 'TextEdit', 'SP NDH': 'TextEdit', 'Lead Link': 'TextEdit', });
 lyr_StackedOverlays_3.set('fieldImages', {'OBJECTID': 'TextEdit', 'LGA_CODE': 'TextEdit', 'CAT_DESC': 'TextEdit', 'OVL_CAT': 'TextEdit', 'OVL2_DESC': 'TextEdit', 'OVL2_CAT': 'TextEdit', 'Shape__Are': 'TextEdit', 'Shape__Len': 'TextEdit', 'hsm_core': 'TextEdit', 'Descriptio': 'TextEdit', 'Source': 'TextEdit', 'gridcode': 'TextEdit', 'Mask': 'TextEdit', 'layer': 'TextEdit', 'path': 'TextEdit', 'LayerName': 'TextEdit', });
 lyr_30mBufferWaterways_4.set('fieldImages', {'id': 'TextEdit', });
-lyr_CabooltureWestParcels_2.set('fieldLabels', {'LOT': 'hidden field', 'PLAN': 'hidden field', 'ACC_CODE': 'hidden field', 'O_SHAPE_Le': 'hidden field', 'O_SHAPE_Ar': 'hidden field', 'LOTPLAN': 'hidden field', 'area_ha': 'inline label - visible with data', 'locality': 'inline label - visible with data', 'local_auth': 'inline label - visible with data', 'address': 'inline label - visible with data', 'Remarks': 'hidden field', 'SP NDH': 'inline label - visible with data', 'Lead Link': 'inline label - always visible', });
+lyr_CabooltureWestParcels_2.set('fieldLabels', {'LOT': 'hidden field', 'PLAN': 'hidden field', 'ACC_CODE': 'hidden field', 'O_SHAPE_Le': 'hidden field', 'O_SHAPE_Ar': 'hidden field', 'LOTPLAN': 'hidden field', 'area_ha': 'inline label - visible with data', 'locality': 'inline label - visible with data', 'local_auth': 'inline label - visible with data', 'address': 'inline label - visible with data', 'Remarks': 'hidden field', 'SP NDH': 'inline label - visible with data', 'Lead Link': 'inline label - visible with data', });
 lyr_StackedOverlays_3.set('fieldLabels', {'OBJECTID': 'no label', 'LGA_CODE': 'no label', 'CAT_DESC': 'no label', 'OVL_CAT': 'no label', 'OVL2_DESC': 'no label', 'OVL2_CAT': 'no label', 'Shape__Are': 'no label', 'Shape__Len': 'no label', 'hsm_core': 'no label', 'Descriptio': 'no label', 'Source': 'no label', 'gridcode': 'no label', 'Mask': 'no label', 'layer': 'no label', 'path': 'no label', 'LayerName': 'no label', });
 lyr_30mBufferWaterways_4.set('fieldLabels', {'id': 'no label', });
 lyr_30mBufferWaterways_4.on('precompose', function(evt) {
